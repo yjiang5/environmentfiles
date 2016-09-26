@@ -1,0 +1,14 @@
+#!/bin/bash
+
+case $1 in
+   # This is for local address
+    *.CompanyName.com|192.168.*|127.0.*|localhost|10.*)
+        PROXY=
+        # METHOD="-X connect"
+     ;;
+    *)
+        PROXY='-H proxy.HOST.ADDRESS.COM:HTTP_PORT -S proxy.HOST.ADDRESS.COM:SOCKS_PORT'
+     ;;
+esac
+connect $PROXY $*
+

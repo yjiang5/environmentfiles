@@ -1,0 +1,11 @@
+[user]
+    # name = XXXXXXXXXXXXXX
+    # email = XXXXXXXXXXX
+[core]
+    gitproxy = none for intel.com
+    gitproxy = git-proxy
+    abbrev = 12
+    editor = vim
+[pretty]
+    fixes = Fixes: %h (\"%s\")
+

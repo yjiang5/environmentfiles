@@ -1,0 +1,6 @@
+Host gerrit.opnfv.org
+        Hostname gerrit.opnfv.org
+        Port 29418
+        User XXXXXX
+        ProxyCommand socks-gw  %h %p
+
