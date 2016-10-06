@@ -1,0 +1,7 @@
+yum install ntp
+chkconfig ntpd on
+ntpdate pool.ntp.org
+service ntpd start
+
+
+Need update the ntp config file to use internal ntp server, which can be checked on windows machines.
