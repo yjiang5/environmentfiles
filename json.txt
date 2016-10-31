@@ -1,0 +1,1 @@
+How to print the json output on the command: According to http://stackoverflow.com/questions/352098/how-can-i-pretty-print-json, "echo '{"foo": "lorem", "bar": "ipsum"}' | python -m json.tool" works quite well.
